@@ -3,17 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "formik": "2.1.4",
+    "formik-material-ui": "2.0.0-alpha.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-redux": "^8.0.5",
     "react-scripts": "^3.4.4",
-    "web-vitals": "^2.1.4",
+    "redux-saga": "^1.2.2",
     "typescript": "^3.9.7",
-    "yup": "0.28.0",
-    "formik": "2.1.4",
-    "formik-material-ui": "2.0.0-alpha.3"
+    "web-vitals": "^2.1.4",
+    "yup": "0.28.0"
   },
   "scripts": {
     "start": "react-scripts start",
