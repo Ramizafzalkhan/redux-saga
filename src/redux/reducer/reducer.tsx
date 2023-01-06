@@ -1,6 +1,6 @@
 import { GET_USERS_SUCCESS } from "../actions/actions";
 
-const reducer = (state = { users: [] }, action: any) => {
+const usersReducer = (state = { users: [] }, action: any) => {
     switch (action.type) {
         case GET_USERS_SUCCESS:
             return { ...state, users: action.users }
@@ -11,4 +11,4 @@ const reducer = (state = { users: [] }, action: any) => {
 
 
 }
-export default reducer;
+export default usersReducer;

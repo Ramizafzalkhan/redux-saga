@@ -1,19 +1,8 @@
+
 import { combineReducers } from "redux";
-import user from '../reducer/reducer'
-
+import usersReducer from "./reducer";
+// import { routerReducer, RouterState } from 'react-router-redux'
 const rootReducer = combineReducers({
-    entities: combineReducers({
-        users: user,
-    }),
-});
-
-export type AppState = ReturnType<typeof rootReducer>;
-
-export default rootReducer;
-export type RootState = ReturnType<typeof rootReducer>;
-
-export interface ActionInterface {
-    type: string;
-    payload: any;
-}
-
+    user: usersReducer
+})
+export default rootReducer
